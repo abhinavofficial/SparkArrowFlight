@@ -1,5 +1,5 @@
-pyspark >=3.1.1
+pyspark=3.2.1
 pandas
-pyarrow
+pyarrow=6.0.1
 tensorflow  # optional
 tensorflow-io  # optional

@@ -19,12 +19,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <scala.version>2.12.10</scala.version>
+    <scala.version>2.12.15</scala.version>
     <scala.binary.version>2.12</scala.binary.version>
-    <dep.arrow.version>2.0.0</dep.arrow.version>
-    <dep.spark.version>3.1.1</dep.spark.version>
-    <dep.fbs.version>1.9.0</dep.fbs.version>
-    <dep.flatc.version>1.9.0</dep.flatc.version>
+    <dep.arrow.version>6.0.1</dep.arrow.version>
+    <dep.spark.version>3.2.1</dep.spark.version>
   </properties>
 
   <dependencyManagement>
@@ -196,7 +194,7 @@
             <compilerPlugin>
               <groupId>com.github.ghik</groupId>
               <artifactId>silencer-plugin_${scala.version}</artifactId>
-              <version>1.6.0</version>
+              <version>1.7.8</version>
             </compilerPlugin>
           </compilerPlugins>
         </configuration>
